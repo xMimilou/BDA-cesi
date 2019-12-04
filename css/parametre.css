@@ -1,0 +1,19 @@
+.container > .col-center{
+    display: block;
+    width:80%;
+    background: #33364b;
+    height:auto;
+    margin:auto;
+    border-radius: 20px;
+    min-height:500px;
+    box-shadow: 10px 5px 15px 0px rgba(0,0,0,1);
+}
+
+.title{
+    color:#fff;
+    text-align: center;
+}
+
+.setting h2{
+    color:#e1e1e1
+}

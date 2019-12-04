@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="css/style.css">
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/register.css"> 
+    <script src="js/script.js"></script>
+    <title>BDA</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wave">
+            <svg class="primary" viewBox="0 0 500 150" preserveAspectRatio="none" style="height:60%; width: 100%;"><path d="M0.00,49.98 C30.18,295.35 301.07,-1.68 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #273036;"></path></svg>
+            <svg class="secondaire" viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 60%; width: 100%;z-index:-2;"><path d="M0.00,49.98 C39.22,310.15 543.17,-34.25 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: rgba(49, 63, 75, 0.315);"></path></svg>
+        </div><!--8C00FF-->
+        <div class="menu">
+            <ul>
+                <li class="logo"><img src="image/bda.png"></li>
+                <li class="active">Home</li>
+                <li>Achat</li>
+                <li>Contact</li>
+                <li>Art</li>
+                <li>information</li>
+                <li><a href="register.html" class="signup-btn"><span>S'inscrire</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="col-1">
+            <div class="col-in-1">p</div>
+            <div class="col-in-2">p</div>
+            <div class="col-in-3">p</div>
+            <div class="col-in-4">p</div>
+            <div class="col-in-5"></div>
+        </div>
+        <div class="col-2">
+            <h1 style="text-align: center;">S'inscrire</h1>
+            <form method="POST" action="signin.php">
+                <h2>Sign Up</h2>    
+                <p>
+                    <label for="Email" class="floatLabel">Email</label>
+                    <input id="Email" name="Email" type="text">
+                </p>
+                <p>
+                    <label for="password" class="floatLabel">Password</label>
+                    <input id="password" name="password" type="password">
+                    <span>Enter a password longer than 8 characters</span>
+                </p>
+                <p>
+                    <label for="confirm_password" class="floatLabel">Confirm Password</label>
+                    <input id="confirm_password" name="confirm_password" type="password">
+                    <span>Your passwords do not match</span>
+                </p>
+                <p>
+                    <input type="submit" value="Create My Account" id="submit">
+                </p>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
